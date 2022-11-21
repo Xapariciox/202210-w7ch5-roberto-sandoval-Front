@@ -1,5 +1,5 @@
 export function Favorite() {
-    const { robots, handleUpdate, handleDelete } = useRobots();
+    const { robots, handleDelete } = useRobots();
 
     return (
         <>
