@@ -15,11 +15,9 @@ export function AppRoutes() {
                     path="robotsfavorites"
                     element={<Favorite></Favorite>}
                 ></Route>
-                <Route path="" element={<></>}></Route>
-
                 <Route
                     path="*"
-                    element={<Navigate replace to="offers" />}
+                    element={<Navigate replace to="robotsfavorites" />}
                 ></Route>
             </Routes>
         </>
